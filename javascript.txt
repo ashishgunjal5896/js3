@@ -1,0 +1,19 @@
+<script>
+
+for(var item=1;item<=100;item++){
+if(item%5==0 && item%3==0){
+document.write("RajaSoftware ")
+}else if(item%3==0){
+document.write("Raja ")
+}else if(item%5==0){
+document.write("Software ")
+}else{
+document.write(item+" ")
+}
+}
+
+
+
+
+
+</script>
